@@ -1,0 +1,207 @@
+@media only screen and (min-width: 769px) {
+  #fold-1 {
+    background-image: url(Top.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #feaa01;
+  }
+  .show-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #fold-1 {
+    background-image: url(folds/folds-1/mobile.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+
+  #form table input {
+    height: 38px !important;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #gifts {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.gift img {
+  width: 70%;
+}
+.win-price-title {
+  width: 80%;
+  margin-bottom: 50px;
+}
+/* .products {
+  background-image: url(folds/folds-3/product.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+@font-face {
+  font-family: BreuerRegular;
+  src: url(folds/fonts/BreuerText.ttf);
+}
+
+@font-face {
+  font-family: BreuerBold;
+  src: url(folds/fonts/BreuerText-Bold.otf);
+}
+
+@font-face {
+  font-family: Aton;
+  src: url(folds/fonts/Anton-Regular.ttf);
+}
+
+.term {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  color: white;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-family: BreuerRegular;
+  overflow: auto;
+  padding-bottom: 5rem;
+}
+
+.term p {
+  font-size: 17px;
+}
+
+.term-table table,
+.term-table tr,
+.term-table td {
+  border: 1px solid white;
+  border-collapse: collapse !important;
+  padding: 3px;
+}
+.term-table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.follow-us {
+  font-family: BreuerBold;
+  font-size: 30px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}
+.title-form {
+  font-family: BreuerBold;
+  font-size: 30px;
+  color: white;
+  background-color: #fc4e5a;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+}
+.form-container, .content {
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#form {
+  margin-top: 20px;
+}
+
+#form table,
+#form tr,
+#form td {
+  border: 0px !important;
+  font-size: 25px;
+}
+
+#form table,
+#form td {
+  padding: 7px !important;
+  text-align: left;
+}
+
+#form table {
+  width: 100%;
+}
+#form table input {
+  width: 90%;
+  border: 0px;
+  height: 50px;
+}
+#form .form-label {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
+
+*:not(input[type="text"], input[type="email"], input[type="phone"], input[type="date"]) {
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="date"] {
+  padding: 10px !important;
+}
+
+hr {
+  height: 3px !important;
+  background-color: white;
+}
+
+#submit-btn {
+  margin-top: 15px;
+  background-color: #8e2c31;
+  font-size: 30px;
+  border: 0px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 40px;
+  font-family: Anton;
+}
+#submit-btn:active {
+  background-color: #3d0003;
+}
+.mt20 {
+  margin-top: 10px;
+}
+.full-width {
+  width: 100%;
+}
+.w-90{
+  width: 90%;
+}
+.product{
+  width: 60%;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.mt50{
+  margin-top: 50px
+}
+.mcard{
+  width: 80% !important;
+}
+.w-70{
+  width: 70% !important;
+}

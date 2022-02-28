@@ -10,7 +10,7 @@ $('#fullpage').fullpage({
   sectionsColor: ['#3dcfa1', '#fc4e5a', '#fffff', '#feaa01', '#fc4e5a'],
   sectionSelector: '.vertical-scrolling',
   navigation: false,
-  slidesNavigation: true,
+  slidesNavigation: false,
   controlArrows: false,
   anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
   menu: '#menu',

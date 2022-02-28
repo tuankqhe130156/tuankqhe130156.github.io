@@ -112,7 +112,8 @@
   border-radius: 50px;
   width: 100%;
 }
-.form-container, .content {
+.form-container,
+.content {
   margin: auto;
   width: 80%;
   margin-top: 20px;
@@ -150,7 +151,7 @@
   text-align: right;
 }
 
-*:not(input[type="text"], input[type="email"], input[type="phone"], input[type="date"]) {
+*:not(input[type="text"], input[type="email"], input[type="phone"], input[type="date"], div.form) {
   color: white;
 }
 
@@ -186,27 +187,26 @@ hr {
 .full-width {
   width: 100%;
 }
-.w-90{
+.w-90 {
   width: 90%;
 }
-.product{
+.product {
   width: 60%;
 }
 
-.mb20{
+.mb20 {
   margin-bottom: 20px;
 }
 
-.mt50{
-  margin-top: 50px
+.mt50 {
+  margin-top: 50px;
 }
-.mcard{
+.mcard {
   width: 80% !important;
 }
-.w-70{
+.w-70 {
   width: 70% !important;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -215,17 +215,21 @@ hr {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #d80000; 
+  background: #d80000;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #b30000;
+}
+
+.formFooter.f6.branding21 {
+    display: none !important;
 }

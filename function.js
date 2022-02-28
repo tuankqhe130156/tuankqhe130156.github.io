@@ -40,8 +40,8 @@ $("#fullpage").fullpage({
     //   }
   },
   afterRender: function(){
-    $("#fp-nav ul").hide();
-    $("#fp-nav").append("<li><img style='width: 20px;' src='folds/scroll-icon.gif'></li>");
+    // $("#fp-nav ul").hide();
+    // $("#fp-nav").append("<li><img style='width: 20px;' src='folds/scroll-icon.gif'></li>");
   },
   onLeave: function (index, nextIndex, direction) {
     if (index == 5) {

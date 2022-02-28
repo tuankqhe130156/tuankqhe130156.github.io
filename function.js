@@ -9,7 +9,7 @@ $header_top.find('a').on('click', function() {
 $('#fullpage').fullpage({
   sectionsColor: ['#3dcfa1', '#fc4e5a', '#fffff', '#feaa01', '#fc4e5a'],
   sectionSelector: '.vertical-scrolling',
-  navigation: true,
+  navigation: false,
   slidesNavigation: true,
   controlArrows: false,
   anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],

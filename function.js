@@ -17,7 +17,6 @@ $("#fullpage").fullpage({
   fitToSectionDelay: 100,
   css3: true,
   // scrollingSpeed: 1000,
-
   touchSensitivity: 5,
   // interlockedSlides: true,
   // fadingEffect: true,

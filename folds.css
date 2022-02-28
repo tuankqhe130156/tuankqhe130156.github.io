@@ -226,13 +226,13 @@ hr {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #d80000;
+  background: #4242426b;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: #31313193;
 }
 
 .formFooter.f6.branding21 {

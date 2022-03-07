@@ -72,6 +72,7 @@
 }
 .product {
   width: 60%;
+  margin-top: 0.7em;
 }
 
 .mb20 {
@@ -145,4 +146,13 @@
 
 .mr50 {
   margin-right: 50px;
+}
+.mt30{
+  margin-top: 30px;
+}
+
+#section2{
+  background-image: url(folds/folds-3/background-products.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

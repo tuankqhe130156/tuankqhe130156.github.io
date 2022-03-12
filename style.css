@@ -10,6 +10,16 @@
   .show-on-mobile {
     display: none;
   }
+  .product-name {
+    font-size: 20px;
+  }
+  .product-container {
+    margin-bottom: 15px;
+  }
+  .win-price-title {
+    width: 70%;
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -28,6 +38,13 @@
     height: 38px !important;
     font-size: 20px !important;
   }
+  .product-name {
+    font-size: 8px;
+  }
+  .win-price-title {
+    width: 90%;
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -39,10 +56,6 @@
 
 .gift img {
   width: 70%;
-}
-.win-price-title {
-  width: 70%;
-  margin-bottom: 50px;
 }
 
 /******************************/
@@ -71,7 +84,7 @@
   width: 90%;
 }
 .product {
-  width: 60%;
+  width: 75%;
   margin-top: 0.7em;
 }
 
@@ -81,6 +94,9 @@
 
 .mt50 {
   margin-top: 50px;
+}
+.mt30 {
+  margin-top: 30px;
 }
 .mcard {
   width: 80% !important;
@@ -147,12 +163,20 @@
 .mr50 {
   margin-right: 50px;
 }
-.mt30{
+.mt30 {
   margin-top: 30px;
 }
 
-#section2{
+#section2 {
   background-image: url(folds/folds-3/background-products.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a {
+  all: unset !important;
+  cursor: pointer !important;
+}
+img{
+  pointer-events: none
 }

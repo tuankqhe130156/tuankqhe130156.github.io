@@ -10,6 +10,9 @@
   .show-on-mobile {
     display: none;
   }
+  .product-name{
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -28,6 +31,7 @@
     height: 38px !important;
     font-size: 20px !important;
   }
+
 }
 
 @media only screen and (min-width: 500px) {
@@ -196,7 +200,7 @@ hr {
   width: 90%;
 }
 .product {
-  width: 60%;
+  width: 70%;
 }
 
 .mb20 {

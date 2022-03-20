@@ -70,7 +70,7 @@
         <img src="folds/loader.gif" id="loader"
             alt="Loading" />
     </div>
-    <div id="fullpage" hidden>
+    <div id="fullpage">
         <div class="section" id="section0">
         </div>
         <div class="section" id="section1">
@@ -1175,12 +1175,11 @@
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
-        async function demo() {
+        async function loader() {
             await sleep(1500)
             document.querySelector('#overlay').hide();
-            setTimeout(document.getElementById('fullpage').removeAttribute('hidden'), 5000)
         }
-        demo()
+        loader()
     </script>
 
 </body>

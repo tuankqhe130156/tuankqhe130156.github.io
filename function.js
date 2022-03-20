@@ -1,4 +1,3 @@
-// Code By Webdevtrick ( https://webdevtrick.com )
 var $header_top = $(".header-top");
 var $nav = $("nav");
 
@@ -36,7 +35,3 @@ $("#fullpage").fullpage({
     }
   },
 });
-
-$("#JotFormIFrame-220578531259056").scroll(function(){
-  alert('haha')
-})

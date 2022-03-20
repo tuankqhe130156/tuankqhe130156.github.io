@@ -43,17 +43,34 @@
         #infoMenu li a {
             color: #fff;
         }
-    </style>
 
-    <!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
+        #overlay {
+            position: fixed;
+            z-index: 9999;
+            background: white;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+
+        #loader {
+            position: relative;
+            display: block;
+            width: 20%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="fullpage">
+    <div id="overlay">
+        <img src="folds/loader.gif" id="loader"
+            alt="Loading" />
+    </div>
+    <div id="fullpage" hidden>
         <div class="section" id="section0">
         </div>
         <div class="section" id="section1">
@@ -1153,6 +1170,17 @@
             lazyLoading: false,
         });
 
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function demo() {
+            await sleep(1500)
+            document.querySelector('#overlay').hide();
+            setTimeout(document.getElementById('fullpage').removeAttribute('hidden'), 5000)
+        }
+        demo()
     </script>
 
 </body>
